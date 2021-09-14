@@ -1,9 +1,9 @@
 #ifndef CAR_H
 #define CAR_H
 
-#include "Vehicle.h"
+//#include "Vehicle.h"///////////////////////////////////
 #include "Auto.h"
-#include "../VehicleSearchResult/VehicleSearchResult.h"
+//#include "../VehicleSearchResult/VehicleSearchResult.h" ////////////////////////////////////////
 
 class Car: public Auto{
 private:

@@ -3,16 +3,15 @@
 
 #include <QLineEdit>
 #include <QComboBox>
-#include <QPushButton>
-#include <QHBoxLayout>
-#include <QVBoxLayout>
+//#include <QPushButton> ////////////////////////////
+//#include <QHBoxLayout> ////////////////////////////
+//#include <QVBoxLayout> ////////////////////////////
 #include <QCheckBox>
 #include <QGridLayout>
 
-#include <string>
-
 #include "../../hierarchy/Truck.h"
 
+//#include <string>  ////////////////////////////
 using std::string;
 
 class TabInsertTruck: public QWidget {

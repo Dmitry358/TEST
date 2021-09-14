@@ -1,7 +1,7 @@
 #ifndef MOTOSEARCHRESULT_H
 #define MOTOSEARCHRESULT_H
 
-#include "VehicleSearchResult.h"
+//#include "VehicleSearchResult.h" /////////////////////////
 #include "../hierarchy/Moto.h"
 
 class MotoSearchResult: public VehicleSearchResult{

@@ -1,7 +1,7 @@
 #ifndef TRUCKSEARCHRESULT_H
 #define TRUCKSEARCHRESULT_H
 
-#include "VehicleSearchResult.h"
+//#include "VehicleSearchResult.h" ///////////////////
 #include "../hierarchy/Truck.h"
 
 class TruckSearchResult: public VehicleSearchResult{

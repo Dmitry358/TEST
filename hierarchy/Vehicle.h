@@ -20,7 +20,6 @@ private:
     unsigned int displacement;
 
 
-
 protected:
     Vehicle(string _make, string _model, unsigned int _registrationYear, unsigned int _mileage, double _basePrice,
             unsigned short int _fuelType, unsigned short int _transmissionType, unsigned int _power,

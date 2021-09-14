@@ -2,7 +2,7 @@
 #define TRUCK_H
 
 #include "Vehicle.h"
-#include "../VehicleSearchResult/VehicleSearchResult.h"
+//#include "../VehicleSearchResult/VehicleSearchResult.h"
 
 class Truck: public Vehicle{
 private:

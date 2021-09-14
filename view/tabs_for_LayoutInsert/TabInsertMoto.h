@@ -3,18 +3,17 @@
 
 #include <QLineEdit>
 #include <QComboBox>
-#include <QPushButton>
-#include <QHBoxLayout>
-#include <QVBoxLayout>
+//#include <QPushButton> /////////////////////
+//#include <QHBoxLayout> ///////////////////
+//#include <QVBoxLayout> //////////////////////
 #include <QCheckBox>
 #include <QGridLayout>
-#include <QString>
-
-#include <string>
+//#include <QString> /////////////////////
 
 #include "../../hierarchy/Moto.h"
 
-using std::string;
+//#include <string> //////////////////////
+//using std::string;
 
 class TabInsertMoto: public QWidget {
 private:

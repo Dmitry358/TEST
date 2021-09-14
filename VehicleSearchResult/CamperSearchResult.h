@@ -1,7 +1,7 @@
 #ifndef CAMPERSEARCHRESULT_H
 #define CAMPERSEARCHRESULT_H
 
-#include "VehicleSearchResult.h"
+//#include "VehicleSearchResult.h" /////////////////////
 #include "../hierarchy/Camper.h"
 
 class CamperSearchResult: public VehicleSearchResult{

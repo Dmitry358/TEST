@@ -2,7 +2,7 @@
 #define CAMPER_H
 
 #include "Auto.h"
-#include "../VehicleSearchResult/VehicleSearchResult.h"
+//#include "../VehicleSearchResult/VehicleSearchResult.h" ///////////////////////////////////////////
 
 class Camper: public Auto{
 

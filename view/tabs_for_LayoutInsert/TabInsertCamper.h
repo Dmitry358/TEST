@@ -3,9 +3,9 @@
 
 #include <QLineEdit>
 #include <QComboBox>
-#include <QPushButton>
-#include <QHBoxLayout>
-#include <QVBoxLayout>
+//#include <QPushButton> ////////////////////////////
+//#include <QHBoxLayout> ////////////////////////////
+//#include <QVBoxLayout> ////////////////////////////
 #include <QCheckBox>
 #include <QGridLayout>
 
