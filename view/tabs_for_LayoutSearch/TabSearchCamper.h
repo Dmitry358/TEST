@@ -2,16 +2,16 @@
 #define TABSEARCHCAMPER_H
 
 #include <QLineEdit>
-#include <QTextEdit>
+//#include <QTextEdit> ////////////////////////////
 #include <QComboBox>
-#include <QPushButton>
-#include <QHBoxLayout>
-#include <QVBoxLayout>
+//#include <QPushButton> ////////////////////////////
+//#include <QHBoxLayout> ////////////////////////////
+//#include <QVBoxLayout> ////////////////////////////
 #include <QCheckBox>
 #include <QGridLayout>
-#include <QLabel>
+#include <QLabel> ////////////////////////////
 
-#include "../../hierarchy/Camper.h"
+//#include "../../hierarchy/Camper.h" ////////////////////////////
 #include "../../VehicleSearchResult/CamperSearchResult.h"
 
 class TabSearchCamper: public QWidget{

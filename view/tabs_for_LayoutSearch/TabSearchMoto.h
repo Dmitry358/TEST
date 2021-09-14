@@ -2,21 +2,21 @@
 #define TABSEARCHCMOTO_H
 
 #include <QLineEdit>
-#include <QTextEdit>
+//#include <QTextEdit> ////////////////////////////
 #include <QComboBox>
-#include <QPushButton>
-#include <QHBoxLayout>
-#include <QVBoxLayout>
+//#include <QPushButton> ////////////////////////////
+//#include <QHBoxLayout>  ////////////////////////////
+//#include <QVBoxLayout> ////////////////////////////
 #include <QCheckBox>
 #include <QGridLayout>
-#include <QLabel>
-#include <QString>
-#include <string>
+//#include <QLabel>  ////////////////////////////
+//#include <QString> ////////////////////////////
 
-#include "../../hierarchy/Moto.h"
+//#include "../../hierarchy/Moto.h"  ////////////////////////////
 #include "../../VehicleSearchResult/MotoSearchResult.h"
 
-using std::string;
+//#include <string>  ////////////////////////////
+//using std::string; ////////////////////////////
 
 
 class TabSearchMoto: public QWidget{

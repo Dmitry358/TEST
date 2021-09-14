@@ -2,20 +2,20 @@
 #define TABSEARCHTRUCK_H
 
 #include <QLineEdit>
-#include <QTextEdit>
+//#include <QTextEdit> ////////////////////////////
 #include <QComboBox>
-#include <QPushButton>
-#include <QHBoxLayout>
-#include <QVBoxLayout>
+//#include <QPushButton> ////////////////////////////
+//#include <QHBoxLayout> ////////////////////////////
+//#include <QVBoxLayout> ////////////////////////////
 #include <QCheckBox>
 #include <QGridLayout>
-#include <QLabel>
-#include <string>
+//#include <QLabel> ////////////////////////////
 
 #include "../../hierarchy/Truck.h"
 #include "../../VehicleSearchResult/TruckSearchResult.h"
 
-using std::string;
+//#include <string> ////////////////////////////
+//using std::string; ////////////////////////////
 
 class TabSearchTruck: public QWidget{
 private:
