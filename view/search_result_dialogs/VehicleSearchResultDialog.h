@@ -1,7 +1,7 @@
 #ifndef VEHICLESEARCHRESULTDIALOG_H
 #define VEHICLESEARCHRESULTDIALOG_H
 
-#include <QWidget>
+//#include <QWidget> //////////////////////////////
 #include <QDialog>
 
 class VehicleSearchResultDialog : public QDialog {

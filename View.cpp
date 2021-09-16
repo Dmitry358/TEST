@@ -11,6 +11,13 @@
 
 void View::setController(Controller* _controller){
     controller=_controller;
+
+    connect(menuView->actions()[0], SIGNAL(triggered()), controller, SLOT(showAllMoto()));
+    connect(menuView->actions()[1], SIGNAL(triggered()), controller, SLOT(showAllCar()));
+    connect(menuView->actions()[2], SIGNAL(triggered()), controller, SLOT(showAllCamper()));
+    connect(menuView->actions()[3], SIGNAL(triggered()), controller, SLOT(showAllTruck()));
+
+    connect(buttonInsert, SIGNAL(clicked()), controller, SLOT(insertNewVehicle()));
 }
 
 View::View(QWidget *parent): QWidget(parent),
@@ -42,13 +49,9 @@ View::View(QWidget *parent): QWidget(parent),
     resize(QSize(700, 600));
     move(QApplication::desktop()->screen()->rect().center() - rect().center());
 
-    connect(buttonInsert, SIGNAL(clicked()), this, SLOT(insertNewVehicle()));
+
     connect(buttonSearch, SIGNAL(clicked()), this, SLOT(searchVehicles()));
 
-    connect(menuView->actions()[0], SIGNAL(triggered()), this, SLOT(showAllMoto()));
-    connect(menuView->actions()[1], SIGNAL(triggered()), this, SLOT(showAllCar()));
-    connect(menuView->actions()[2], SIGNAL(triggered()), this, SLOT(showAllCamper()));
-    connect(menuView->actions()[3], SIGNAL(triggered()), this, SLOT(showAllTruck()));
     connect(menuSearch, SIGNAL(triggered()), this, SLOT(showSearchLayout()));
     connect(menuInsert, SIGNAL(triggered()), this, SLOT(showInsertLayout()));
 }
