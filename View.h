@@ -92,6 +92,8 @@ public:
     void setController(Controller*);
     int tabCurrentIndex() const;
 
+    VehicleSearchResultDialog* returnSearchResultDialog() const { return searchResultDialog; }
+
     Vehicle* returnVechicleForInsert() const;
     void showInsertConfirm();
 
@@ -112,7 +114,7 @@ public:
     void showRemoveVehicleConfirm();
 
     void showWarning(string str);
-
+    void showDialogsWarning(string str, VehicleSearchResultDialog* rd=nullptr);
 
 private slots:
     void showSearchLayout();

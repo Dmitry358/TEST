@@ -323,6 +323,18 @@ void View::showWarning(string str) {
     dialog->show();
 }
 
+void View::showDialogsWarning(string str, VehicleSearchResultDialog* rd){
+    QDialog* dialog=new QDialog(searchResultDialog);
+    QVBoxLayout* mainLayout= new QVBoxLayout;
+    dialog->setLayout(mainLayout);
+
+    mainLayout->addWidget(new QLabel(QString::fromStdString(str), dialog));
+    mainLayout->setAlignment(Qt::AlignCenter);
+    dialog->setMinimumHeight(120);
+
+    dialog->show();
+}
+
 void View::closeSearchResultDialog(){
     delete searchResultDialog;
     searchResultDialog=nullptr;

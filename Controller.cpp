@@ -132,7 +132,8 @@ void Controller::removeVehicle() const {
     }
 
     catch(std::runtime_error exc){
-        view->showWarning(exc.what());
+//        view->showWarning(exc.what());
+        view->showDialogsWarning(exc.what());
     }
 }
 
